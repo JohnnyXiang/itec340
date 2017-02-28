@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4D670B941B66D5B80073F69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670B931B66D5B80073F69A /* AppDelegate.swift */; };
-		4D670B961B66D5B80073F69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670B951B66D5B80073F69A /* ViewController.swift */; };
+		4D670B961B66D5B80073F69A /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670B951B66D5B80073F69A /* LandingViewController.swift */; };
 		4D670B991B66D5B80073F69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D670B971B66D5B80073F69A /* Main.storyboard */; };
 		4D670B9B1B66D5B80073F69A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D670B9A1B66D5B80073F69A /* Images.xcassets */; };
 		4D670B9E1B66D5B80073F69A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D670B9C1B66D5B80073F69A /* LaunchScreen.xib */; };
 		4D670BAA1B66D5B80073F69A /* login_registrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670BA91B66D5B80073F69A /* login_registrationTests.swift */; };
+		4D670BB61B66E4780073F69A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670BB51B66E4780073F69A /* LoginViewController.swift */; };
+		4D670BB81B66E7400073F69A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D670BB71B66E7400073F69A /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		4D670B8E1B66D5B80073F69A /* login-registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-registration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D670B921B66D5B80073F69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D670B931B66D5B80073F69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D670B951B66D5B80073F69A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D670B951B66D5B80073F69A /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		4D670B981B66D5B80073F69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D670B9A1B66D5B80073F69A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D670B9D1B66D5B80073F69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D670BA31B66D5B80073F69A /* login-registrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "login-registrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D670BA81B66D5B80073F69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D670BA91B66D5B80073F69A /* login_registrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_registrationTests.swift; sourceTree = "<group>"; };
+		4D670BB51B66E4780073F69A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Images.xcassets/LoginViewController.swift; sourceTree = "<group>"; };
+		4D670BB71B66E7400073F69A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				4D670B931B66D5B80073F69A /* AppDelegate.swift */,
-				4D670B951B66D5B80073F69A /* ViewController.swift */,
+				4D670B951B66D5B80073F69A /* LandingViewController.swift */,
+				4D670BB51B66E4780073F69A /* LoginViewController.swift */,
+				4D670BB71B66E7400073F69A /* RegisterViewController.swift */,
 				4D670B971B66D5B80073F69A /* Main.storyboard */,
-				4D670B9A1B66D5B80073F69A /* Images.xcassets */,
 				4D670B9C1B66D5B80073F69A /* LaunchScreen.xib */,
+				4D670B9A1B66D5B80073F69A /* Images.xcassets */,
 				4D670B911B66D5B80073F69A /* Supporting Files */,
 			);
 			path = "login-registration";
@@ -161,9 +167,11 @@
 				TargetAttributes = {
 					4D670B8D1B66D5B80073F69A = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
 					};
 					4D670BA21B66D5B80073F69A = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
 						TestTargetID = 4D670B8D1B66D5B80073F69A;
 					};
 				};
@@ -212,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D670B961B66D5B80073F69A /* ViewController.swift in Sources */,
+				4D670BB61B66E4780073F69A /* LoginViewController.swift in Sources */,
+				4D670B961B66D5B80073F69A /* LandingViewController.swift in Sources */,
 				4D670B941B66D5B80073F69A /* AppDelegate.swift in Sources */,
+				4D670BB81B66E7400073F69A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +355,8 @@
 				INFOPLIST_FILE = "login-registration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,6 +367,8 @@
 				INFOPLIST_FILE = "login-registration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -373,6 +387,7 @@
 				INFOPLIST_FILE = "login-registrationTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/login-registration.app/login-registration";
 			};
 			name = Debug;
@@ -388,6 +403,7 @@
 				INFOPLIST_FILE = "login-registrationTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/login-registration.app/login-registration";
 			};
 			name = Release;
@@ -411,6 +427,7 @@
 				4D670BAF1B66D5B80073F69A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D670BB01B66D5B80073F69A /* Build configuration list for PBXNativeTarget "login-registrationTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				4D670BB21B66D5B80073F69A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
